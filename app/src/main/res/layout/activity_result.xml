@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewFinalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your score: /"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/buttonNewQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take New Quiz"
+        android:layout_below="@id/textViewFinalScore"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:layout_below="@id/textViewFinalScore"
+        android:layout_marginTop="24dp"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
